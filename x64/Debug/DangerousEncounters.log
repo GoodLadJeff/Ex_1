@@ -1,0 +1,3 @@
+﻿  Inventory.cpp
+D:\Program Files\Artfx\CppMarie\DangerousEncounters\Inventory.cpp(15,28): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+  DangerousEncounters.vcxproj -> D:\Program Files\Artfx\CppMarie\DangerousEncounters\x64\Debug\DangerousEncounters.exe
