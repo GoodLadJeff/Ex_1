@@ -133,6 +133,7 @@
     <ClCompile Include="Consumable.cpp" />
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="DangerousEncounters.cpp" />
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Weapon.cpp" />
@@ -143,6 +144,8 @@
     <ClInclude Include="Character.h" />
     <ClInclude Include="Consumable.h" />
     <ClInclude Include="Creature.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyType.h" />
     <ClInclude Include="IItem.h" />
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="ItemRarity.h" />

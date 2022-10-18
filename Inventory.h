@@ -18,7 +18,9 @@ public:
 	int GetSize();
 
 	void Summarise();
+	void AddObject(Armament itemToAdd);
 	void RemoveObjectAtLocation(int location);
 	void SwapObjects(int location1, int location2);
+	void GiveItem(int itemToGiveLocation, Inventory* otherInventory);
 };
 

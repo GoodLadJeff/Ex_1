@@ -1,3 +1,4 @@
-﻿  Inventory.cpp
-D:\Program Files\Artfx\CppMarie\DangerousEncounters\Inventory.cpp(15,28): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
-  DangerousEncounters.vcxproj -> D:\Program Files\Artfx\CppMarie\DangerousEncounters\x64\Debug\DangerousEncounters.exe
+﻿  DangerousEncounters.cpp
+D:\Program Files\Artfx\CppMarie\Ex_1\DangerousEncounters.cpp(21,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+D:\Program Files\Artfx\CppMarie\Ex_1\DangerousEncounters.cpp(173,22): warning C4805: '==' : mélange risqué de type 'int' et de type 'bool' dans l'opération
+  DangerousEncounters.vcxproj -> D:\Program Files\Artfx\CppMarie\Ex_1\x64\Debug\DangerousEncounters.exe

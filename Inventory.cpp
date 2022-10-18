@@ -28,6 +28,11 @@ void Inventory::Summarise()
 	std::cout << std::endl;
 }
 
+void Inventory::AddObject(Armament itemToAdd)
+{
+	mItemsStored.push_back(itemToAdd);
+}
+
 void Inventory::RemoveObjectAtLocation(int location)
 {
 	if (location >= GetSize() || location < 0) 
@@ -64,4 +69,13 @@ void Inventory::SwapObjects(int location1, int location2)
 	std::swap(*i, *j);
 
 	//std::swap(mItemsStored[location1], mItemsStored[location2]);
+}
+
+void Inventory::GiveItem(int itemToGiveLocation, Inventory* ptrInv)
+{
+	std::vector<Armament>::iterator i = mItemsStored.begin();
+	i += itemToGiveLocation;
+
+	ptrInv->AddObject(*i);
+	RemoveObjectAtLocation(itemToGiveLocation);
 }
